@@ -1,0 +1,501 @@
+#home-body{
+    background-color: rgb(229, 229, 229);
+    margin-top:0px;
+    margin-left:0;
+    margin-right:0;
+}
+
+#home-body p{
+    font-family:"Nunito", sans-serif;
+    font-size:20px;
+}
+
+.navbar{
+    max-width:100%;
+    display:flex;
+    justify-content: space-between;
+    background-color:rgba(209, 89, 109, 0.15);
+}
+
+.navbar ul{
+    padding:0px;
+    display:flex;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar li{
+    font-family:"Poppins", sans-serif;
+    margin-right:30px;
+    list-style: none;
+    font-weight:500;
+    cursor:pointer;
+}
+
+.navbar a{
+    transition: 200ms ease-in;
+    text-decoration: none;
+    font-weight:500;
+}
+
+.title-logo{
+    margin-left:10px;
+    justify-self: start;
+    user-select: none;
+    cursor:pointer;
+}
+
+.title-logo a{
+    color:black;
+}
+
+.title-logo h2{
+    font-size:30px;
+    display:flex;
+    justify-content: start;
+    font-family:"Lilita One", sans-serif;
+    transition:100ms ease-in;
+}
+
+.title-logo h2:hover{
+    opacity:65%;
+    transition:100ms ease-in;
+}
+
+.title-logo span{
+    color:rgb(209, 89, 109);
+}
+
+.search-input{
+    display:flex;
+    align-items: center;
+}
+
+.fa-solid.fa-magnifying-glass{
+    font-size:18px;
+    margin-right:10px;
+}
+
+.search-input input{
+    border-radius:10px;
+    border-color:rgb(209, 89, 109);
+    border-style: solid;
+    padding:5px;
+}
+
+.dark-light{
+    margin-right:10px;
+    width:32px;
+    display:flex;
+    align-items: center;
+    font-size:30px;
+}
+
+.dark-light i{
+    cursor:pointer;
+}
+
+.dark-light i:hover{
+    opacity:70%;
+    transition:200ms ease-in;
+}
+
+.fa-solid.fa-sun{
+    display:none;
+    color:rgb(229, 229, 229);
+}
+
+/* HEADER */
+
+header{
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:70%;
+    text-align: center;
+
+}
+
+header h1{
+    text-align: center;
+    margin:auto;
+    font-family:"Lilita One", sans-serif;
+    font-size:56px;
+}
+
+header span{
+   color: rgb(209, 89, 109);
+}
+
+main{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:80%;
+    text-align: center;
+}
+
+main h3{
+    font-family:"Poppins", sans-serif;
+    font-size:36px;
+}
+
+#frilled-shark{
+    transition:100ms ease-in;
+    width:85%;
+    border-radius:5px;
+    border:3px solid rgb(61, 112, 134);
+}
+
+#sunbear{
+    border:3px solid rgb(99, 60, 29);
+}
+
+#chinese-water-deer{
+    border:3px solid rgb(99, 60, 29);
+}
+
+#mudskipper{
+    border:3px solid rgb(36, 20, 7);
+}
+
+#tenrec{
+    border:3px solid rgb(201, 156, 7);
+}
+
+#aye-aye{
+    border:3px solid rgb(56, 30, 10);
+}
+
+#dumbo{
+    border:3px solid rgb(152, 141, 115);
+
+}
+
+#gerenuk{
+    border:3px solid rgb(58, 40, 25);
+}
+
+#tasmanian-tiger{
+    border:3px solid rgb(29, 29, 29);
+}
+
+#frilled-shark-main{
+    border:3px solid rgb(61, 112, 134);
+}
+
+#pink-fairy{
+    border:3px solid rgb(43, 70, 34);
+
+}
+
+#conclusion{
+    border:3px solid rgb(34, 57, 74);
+}
+
+.conclusion{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:80%;
+    text-align: center;
+}
+
+#conclusion-link{
+    color:gray;
+}
+
+.conclusion h3{
+    font-family: "Poppins", sans-serif;
+    font-size:36px;
+}
+
+.animal-image {
+    border-radius:5px;
+    transition:100ms ease-in;
+    width:50%;
+}
+
+.source{
+    font-size:16px;
+    color:gray;
+}
+
+.icons{
+    padding:10px;
+    color:rgb(209, 89, 109);
+    font-size:30px;
+    text-align:center;
+}
+
+.icons i{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.icons a{
+    color:rgb(209, 89, 109);
+}
+
+.icons i:hover{
+    transition:120ms ease-in;
+    color:rgb(144, 74, 85);
+}
+
+footer h4{
+    font-family:Poppins, sans-serif;
+    font-weight:200;
+    text-align:center;
+}
+
+/*BUTTON*/
+
+#scrollToTop{
+    display:none;
+    color:rgb(209, 89, 109);
+    background:none;
+    border:none;
+    font-size:50px;
+    position:fixed;
+    border-radius: 100%;
+    bottom:20px;
+    right:5%;
+    z-index:99;
+    float:right;
+}
+
+#scrollToTop:hover{
+    opacity:80%;
+    cursor:pointer;
+    transition:100ms ease-in;
+}
+
+/* LOG IN SCREEN */
+
+#login-body{
+    background-image:url(images/uncannimals.png);
+    background-size:cover;
+    background-repeat: none;
+    background-color: #e9d9d9; /* Used if the image is unavailable */
+    height:99vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-top:0px;
+    margin-left:0;
+    margin-right:0;
+    text-align:center;
+}
+
+#login-body h1{
+    font-family:"Poppins", sans-serif;
+}
+
+.main-login-container{
+    width:450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    height:500px;
+    padding:20px;
+    width:100%;
+    background-color:rgba(226, 130, 146, 0.5);
+    backdrop-filter: blur(0.2rem);
+    text-align:center;
+    border-radius:10px;
+    box-shadow:8px 8px 3px rgba(40, 10, 10, 0.4);
+}
+
+.login-container h2{
+    font-family:Poppins, sans-serif;
+}
+
+#forgot-pass{
+    font-family:Poppins, sans-serif;
+    font-size:12px;
+}
+.title-login{
+    margin-bottom:10%;
+
+}
+
+.main-login{
+    margin:auto;
+    width:50%;
+    text-align:start;
+    position:relative;
+}
+
+.main-login label{
+    position:relative;
+    left:2%;
+    font-size:14px;
+    font-family:Poppins, sans-serif;
+}
+
+.main-login input{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:8px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    border-radius:18px;
+    border-style:solid;
+    border-color:pink;
+}
+
+.login-container button{
+    margin-top:20px;
+    padding:8px;
+    border-radius:16px;
+    background-color:rgb(116, 43, 43);
+    color:white;
+    border:none;
+    font-family:Poppins, sans-serif;
+    width:20%;
+}
+
+.login-container button:hover{
+    transition:ease-in 120ms;
+    background-color:rgb(73, 15, 15);
+    cursor:pointer
+}
+
+.email-input{
+    margin-bottom:20px;
+}
+
+#search-input{
+    margin-right:20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:845px){
+    .search-input{
+        display:none;
+    }
+}
+
+@media (max-width:632px){
+    .navbar ul{
+        display:none;
+    }
+    #title-logo{
+        width:35%;
+        margin:auto;
+    }
+}
+
+@media (max-width:481px){
+    header h1{
+        font-size:40px;
+    }
+
+    #home-body p{
+        font-size:15px;
+    }
+
+    main h3{
+        font-size:24px;
+    }
+
+    .animal-image{
+        width:100%
+    }
+
+    .source{
+        font-size:8px;
+    }
+    
+}
+
+@media (max-width:350px){
+    header h1{
+        font-size:32px;
+    }
+
+    #home-buddy p{
+        font-size:12px;
+    }
+
+    main h3{
+        font-size:18px;
+    }
+
+    .animal-image{
+        width:100%
+    }
+
+    .source{
+        font-size:6px;
+    }
+}
+
+@media (max-width:640px){
+    #scrollToTop{
+        font-size:40px;
+        right:5%;
+    }
+}
+
+@media (max-width:464px){
+    .login-container h2{
+        font-size:20px;
+    }
+}
+
+@media (max-width:425px){
+    .login-container{
+        height:400px;
+    }
+    .main-login input{
+        width:150px;
+    }
+    #title-logo{
+        width:50%;
+        margin:auto;
+    }
+}
+
+@media (max-width:375px){
+    .login-container{
+        height:380px;
+    }
+    .login-container h2{
+        font-size:18px;
+    }
+    .main-login input{
+        width:120px;
+    }
+    #forgot-pass{
+        font-size:10px;
+    }
+    .login-container button{
+        width:35%;
+    }
+}
+
+@media (max-width:320px){
+    .login-container{
+        height:380px;
+    }
+    .login-container h2{
+        font-size:16px;
+    }
+    .main-login input{
+        width:100px;
+    }
+    #forgot-pass{
+        font-size:9px;
+    }
+    .login-container button{
+        width:35%;
+    }
+    #title-logo{
+        width:65%;
+        margin:auto;
+    }
+}
